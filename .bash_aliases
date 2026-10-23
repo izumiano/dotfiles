@@ -1,0 +1,1 @@
+alias codespacePush='/workspaces/.codespaces/.persistedshare/dotfiles/bin/codespacePush.sh'

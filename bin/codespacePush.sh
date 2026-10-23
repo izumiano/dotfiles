@@ -15,6 +15,7 @@ while [ $# -gt 0 ]; do
 done
 
 if [ "$has_undo" = true ]; then
+	git push origin -d codespace-temp
   git reset --soft HEAD~1
 	git switch main
 	git branch -d codespace-temp
